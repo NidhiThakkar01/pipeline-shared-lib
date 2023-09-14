@@ -4,7 +4,7 @@ class Car {
   int numberOfDoors
   String brand
   String model
-  
+  int number
 	Car(number) {
 		this.number = number
 	}
