@@ -4,6 +4,6 @@ def call(def filename,def fileContent = "Hello, It is sample file for execution"
   echo $filename
   touch ${filename}
   """
-  writeFile(${filename}, fileContent)
+  writeFile(filename, fileContent)
   echo 'File is written'
 }
