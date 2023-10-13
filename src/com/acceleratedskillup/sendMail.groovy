@@ -1,3 +1,5 @@
+package com.acceleratedskillup;
+
 import hudson.model.AbstractProject
 import hudson.tasks.Mailer
 import hudson.model.User
