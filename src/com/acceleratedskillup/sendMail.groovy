@@ -11,5 +11,7 @@ def printMailInfo(){
   def id = cause.getUserId()
   User u = User.get(id)
   def umail = u.getProperty(Mailer.UserProperty.class)
-  print umail.getAddress()
+  println "here is mail::"
+  println umail.getAddress()
+  println "completed!!"
 }
